@@ -1,4 +1,4 @@
-package hu.petrik.helloworld;
+package hu.petrik.pontoop;
 
 public class Main {
 
