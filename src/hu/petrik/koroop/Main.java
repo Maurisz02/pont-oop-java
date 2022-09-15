@@ -17,5 +17,13 @@ public class Main {
         for (int i = 0; i < korok.length;i++ ){
             System.out.println(korok[i]);
         }
+        int biggestT = 0;
+        for (int i = 0;i<korok.length;i++){
+            if(korok[biggestT].terulet() < korok[i].terulet()){
+                biggestT = i;
+            }
+        }
+
+        System.out.println("A legnagyobb területü kör: "+ korok[biggestT+1] +", Melynek területe: "+ korok[biggestT+1].terulet());
     }
 }

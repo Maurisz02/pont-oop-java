@@ -35,6 +35,7 @@ public class Main {
             }
         }
 
+
         System.out.println("A legtávolabbi pont az origótól: "+ (furtherIndex+1)+ ", Kordinátái: "+ (pontok[furtherIndex]) + ", Távolsága: "+ pontok[furtherIndex].origoDistance());
 
         Pont[] twoPoint = new Pont[2];

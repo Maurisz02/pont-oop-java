@@ -27,8 +27,9 @@ public class Kor {
     public Kor(){
         this.kPont = new Pont(100);
         this.r = (int) (Math.random() * ((2 * 20) + 1)) - 20;
-
     }
+
+
 
     @Override
     public String toString(){
