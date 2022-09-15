@@ -43,5 +43,8 @@ public class Main {
 
         System.out.println("A p5 és p6 távolsága: "+ p5.twoPointDistance(p6));
 
+        Pont p7 = new Pont(100);
+        System.out.println(p7);
+        System.out.println(p7.onePoint());
     }
 }
