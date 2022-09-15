@@ -26,5 +26,15 @@ public class Main {
         for(Pont p: pontok){// foreach in java
             System.out.println(p);
         }
+
+        //Origotól legtávolabb
+        int furtherIndex = 0;
+        for(int i = 1; i < pontok.length;i++){
+            if(pontok[furtherIndex].origoDistance() < pontok[i].origoDistance()){
+                furtherIndex = i;
+            }
+        }
+
+        System.out.println("A legtávolabbi pont az origótól: "+ (furtherIndex+1)+ ", Kordinátái: "+ (pontok[furtherIndex]) + ", Távolsága: "+ pontok[furtherIndex].origoDistance());
     }
 }
