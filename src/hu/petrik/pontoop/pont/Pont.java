@@ -15,8 +15,8 @@ public class Pont {
     };
 
     public Pont(int n){
-        this.x = coordinateGenerate(n);
-        this.y = coordinateGenerate(n);
+        this.x =coordinateGenerate(n);
+        this.y =coordinateGenerate(n);
     }
 
     private int coordinateGenerate(int n) {
