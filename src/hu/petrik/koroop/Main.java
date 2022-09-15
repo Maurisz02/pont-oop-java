@@ -10,5 +10,12 @@ public class Main {
         System.out.println(k1.kerulet());
         System.out.println(k1.terulet());
 
+        Kor[] korok = new Kor[10];
+        for(int i = 0; i < korok.length;i++ ){
+            korok[i] = new Kor();
+        }
+        for (int i = 0; i < korok.length;i++ ){
+            System.out.println(korok[i]);
+        }
     }
 }
