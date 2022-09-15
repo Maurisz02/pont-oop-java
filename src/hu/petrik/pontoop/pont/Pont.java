@@ -14,6 +14,15 @@ public class Pont {
         this.y = y;
     };
 
+    public Pont(int n){
+        this.x = coordinateGenerate(n);
+        this.y = coordinateGenerate(n);
+    }
+
+    private int coordinateGenerate(int n) {
+        return (int) (Math.random() * ((2 * n) + 1)) - n;
+    }
+
     @Override
     public String toString(){
         return String.format("(%d, %d)",this.x, this.y);
